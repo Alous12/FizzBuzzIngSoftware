@@ -1,11 +1,11 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "199d6c9d026e71cbb41d7a612c90d790e867e5c2",
     "author": "Alous12",
     "commit": {
       "date": "2025-09-02T08:27:19.000Z",
       "message": "feat: agregar mostrar cualquier numero que no sea multiplo ni de 3 ni de 5",
-      "url": "https://github.com/Alous12/FizzBuzzIngSoftware/commit/HEAD"
+      "url": "https://github.com/Alous12/FizzBuzzIngSoftware/commit/199d6c9d026e71cbb41d7a612c90d790e867e5c2"
     },
     "stats": {
       "total": 67,
@@ -15,6 +15,25 @@
     },
     "coverage": 100,
     "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Alous12",
+    "commit": {
+      "date": "2025-09-02T08:46:22.000Z",
+      "message": "feat: agregar mostrar Fizz cuando es 3",
+      "url": "https://github.com/Alous12/FizzBuzzIngSoftware/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 7,
+      "deletions": 1,
+      "date": "2025-09-02"
+    },
+    "coverage": 100,
+    "test_count": 2,
     "failed_tests": 0,
     "conclusion": "success"
   }
