@@ -95,12 +95,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6b6e98944effe70b742919b6039f05e3634bae0a",
     "author": "Alous12",
     "commit": {
       "date": "2025-09-02T08:53:56.000Z",
       "message": "feat: agregar mostrar Buzz cuando es multiplo de 5",
-      "url": "https://github.com/Alous12/FizzBuzzIngSoftware/commit/HEAD"
+      "url": "https://github.com/Alous12/FizzBuzzIngSoftware/commit/6b6e98944effe70b742919b6039f05e3634bae0a"
     },
     "stats": {
       "total": 1,
@@ -110,6 +110,25 @@
     },
     "coverage": 100,
     "test_count": 5,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Alous12",
+    "commit": {
+      "date": "2025-09-02T08:55:24.000Z",
+      "message": "feat: agregar mostrar FizzBuzz cuando es multiplo de 3 y 5",
+      "url": "https://github.com/Alous12/FizzBuzzIngSoftware/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 11,
+      "deletions": 2,
+      "date": "2025-09-02"
+    },
+    "coverage": 100,
+    "test_count": 6,
     "failed_tests": 0,
     "conclusion": "success"
   }
