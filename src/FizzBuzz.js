@@ -1,22 +1,17 @@
 function FizzBuzz(n) {
-  if(n%3 === 0 && n%5 === 0)
-  {
-    return "FizzBuzz";
-  }
-  else
-  {
-    //Multiplo de 3
-    if(n%3 === 0)
-    {
-      return "Fizz";
-    }
-    //Multiplo de 5
-    if(n%5 === 0)
-    {
-      return "Buzz";
+  let resultado = [];
+  for (let i = 1; i <= n; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {
+      resultado.push("FizzBuzz");
+    } else if (i % 3 === 0) {
+      resultado.push("Fizz");
+    } else if (i % 5 === 0) {
+      resultado.push("Buzz");
+    } else {
+      resultado.push(i + "");
     }
   }
-  return n +"";
+  return resultado.join(" ");
 }
 
 export default FizzBuzz;

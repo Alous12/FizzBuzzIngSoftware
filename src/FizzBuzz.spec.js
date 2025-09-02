@@ -25,6 +25,11 @@ describe("Retonarnar numero que no sea ni multiplo de 3 ni de 5", () => {
     expect(FizzBuzz(15)).toEqual("FizzBuzz");
   });
 
+  it("Deberia retornar una cadena con los resultados de 1 a n", () => {
+    expect(FizzBuzz(16)).toEqual(
+      "1 2 Fizz 4 Buzz Fizz 7 8 Fizz Buzz 11 Fizz 13 14 FizzBuzz 16"
+    );
+  });
 });
 
 
