@@ -5,6 +5,7 @@ function FizzBuzz(n) {
   }
   else
   {
+    //Multiplo de 5
     if(n%5 === 0)
     {
       return "Buzz";
