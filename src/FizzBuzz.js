@@ -3,6 +3,13 @@ function FizzBuzz(n) {
   {
     return "Fizz";
   }
+  else
+  {
+    if(n === 5)
+    {
+      return "Buzz";
+    }
+  }
   return n +"";
 }
 
