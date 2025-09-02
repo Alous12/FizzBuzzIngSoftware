@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "Alous12",
+    "commit": {
+      "date": "2025-09-02T08:27:19.000Z",
+      "message": "feat: agregar mostrar cualquier numero que no sea multiplo ni de 3 ni de 5",
+      "url": "https://github.com/Alous12/FizzBuzzIngSoftware/commit/HEAD"
+    },
+    "stats": {
+      "total": 67,
+      "additions": 31,
+      "deletions": 36,
+      "date": "2025-09-02"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
