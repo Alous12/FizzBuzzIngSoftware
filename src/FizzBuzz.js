@@ -5,7 +5,7 @@ function FizzBuzz(n) {
   }
   else
   {
-    if(n === 5)
+    if(n%5 === 0)
     {
       return "Buzz";
     }

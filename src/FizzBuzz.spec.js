@@ -16,7 +16,11 @@ describe("Retonarnar numero que no sea ni multiplo de 3 ni de 5", () => {
   it("Deberia retornar Buzz si es 5", () => {
     expect(FizzBuzz(5)).toEqual("Buzz");
   });
-  
+
+  it("Deberia retornar Buzz si es 10 o multiplo de 5", () => {
+    expect(FizzBuzz(10)).toEqual("Buzz");
+  });
+
 });
 
 
